@@ -31,3 +31,7 @@ There's an old-school way of defining possible routes on your web site, a [`site
 Possibly. I'm thinking that injecting a different GraphQL client during SSR than post-hydration to get a division between static/dynamic content without having to do anything with your client code.
 
 Another thing would be serializing any access data during SSR into the HTML but in such a way that it would populate something like [`apollo-cache-inmemory`](https://github.com/apollographql/apollo-client/tree/master/packages/apollo-cache-inmemory) so data access done after re-hydration is available without reloading.
+
+### What's up with the logo?
+
+Stole it [from here](http://redfinchjapanese.com/?action=kanji_dictionary&kanji=1888) Where I found out that 謄 (if I understand it correctly) means "Mimeograph" - perfect.
